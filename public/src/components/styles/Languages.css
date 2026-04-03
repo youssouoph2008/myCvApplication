@@ -1,0 +1,51 @@
+/*Languages.css*/
+
+
+.languages-container{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: #f5f5f5;
+    padding: 1rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+.languages-container h2{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.languages-container input{
+    padding: 0.5rem;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.languages-container button{
+    padding: 0.5rem;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    background-color: #333;
+    color: #fff;
+}
+
+.languages-container p{
+    padding: 0.5rem;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.languages-container p:hover{
+    background-color: #f5f5f5;
+}
+
+.languages-container p:active{
+    background-color: #333;
+    color: #fff;
+}
+
+.languages-container p:focus{
+    background-color: #333;
+    color: #fff;
+}

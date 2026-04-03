@@ -1,4 +1,5 @@
 // GeneralInfo.jsx
+import "./styles/GeneralInfo.css"
 
 import { useState } from "react";
 
@@ -25,7 +26,7 @@ export default function GeneralInfo({ data, setData }) {
         );
     }
     return (
-        <div>
+        <div className="general-info-container">
             <p>Name: {data.name}</p>
             <p>Email: {data.email}</p>
             <p>Phone: {data.phone}</p>

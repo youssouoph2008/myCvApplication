@@ -1,0 +1,50 @@
+/*Experience.css*/
+
+.experience-container{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: #f5f5f5;
+    padding: 1rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+.experience-container h2{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.experience-container input{
+    padding: 0.5rem;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.experience-container button{
+    padding: 0.5rem;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    background-color: #333;
+    color: #fff;
+}
+
+.experience-container p{
+    padding: 0.5rem;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.experience-container p:hover{
+    background-color: #f5f5f5;
+}
+
+.experience-container p:active{
+    background-color: #333;
+    color: #fff;
+}
+
+.experience-container p:focus{
+    background-color: #333;
+    color: #fff;
+}
